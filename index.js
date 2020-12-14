@@ -6,7 +6,7 @@ class Tree{
   }
   
   static definition(){
-    return 
+    return `A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.`
   }
 }
 
@@ -17,6 +17,6 @@ class Deciduous extends Tree {
   }
   
   static definition(){
-    return ${super.definition()} + `Deciduous trees shed their leaves annually.` 
+    return ${super.definition()} Deciduous trees shed their leaves annually.
   }
 }
